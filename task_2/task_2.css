@@ -1,0 +1,357 @@
+.header {
+  width: 100%;
+  border-bottom: 10px solid #14aeef;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.header .navbar {
+  padding: 20px 250px;
+}
+
+.navbar-brand {
+  margin-right: 35%;
+}
+
+.header .bg-light {
+  background-color: #545b62fa!important;
+}
+
+.p-250 {
+  width: 100%;
+  padding: 0px 250px;
+}
+
+.nav-link {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.nav-item {
+  border-right: 1px solid lightgray;
+}
+
+.nav-link div{
+  font-weight: 100;
+}
+
+.account-container span {
+  background-color: #14aeef;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.header .navbar-nav {
+  margin-right: 9% !important;
+}
+
+.navbar .inline-block h1 {
+  margin: 9px;
+  font-weight: 600;
+  color: gray;
+  font-size: 47px;
+}
+
+.navbar .online-anytime {
+  text-align: right;
+}
+
+.navbar .online-anytime h5 {
+  color: white;
+}
+
+.navbar .online-anytime div {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar .inline-block span{
+  width: 0;
+  overflow: visible;
+  color: white;
+  font-weight: 600;
+}
+
+.search-button {
+  display: inherit;
+}
+
+/* Tab css */
+.tabs{
+  display: block;
+  position: relative;
+  padding: 0px 250px;
+}
+
+.tabs .tab{
+  float: left;
+  display: block;
+}
+
+.tabs .tab>input[type="radio"] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.tabs .tab>label {
+  display: block;
+  padding: 6px 21px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  color:#495057d9;
+  background: #6c757d3b;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px 4px
+}
+
+.tabs .content {
+  z-index: 0;/* or display: none; */
+  overflow: hidden;
+  width: 100%;
+  padding: 25px 250px;
+  position: absolute;
+  left: 0;
+  background: #f1f1f1;
+  color: black;
+  
+  opacity:0;
+  transition: opacity 400ms ease-out;
+}
+
+.tabs>.tab>[id^="tab"]:checked + label {
+  top: 0;
+  background: #f1f1f1;
+  color: black;
+  font-weight: 700;
+}
+
+.tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
+  z-index: 1;/* or display: block; */
+ 
+  opacity: 1;
+  transition: opacity 400ms ease-out;
+}
+
+.tabs .content .col-4 {
+  font-size: 35px;
+  padding-right: 150px;
+  color: gray;
+}
+
+/* Card list css */
+.card-list {
+  margin-top: 10%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card-list-header {
+  padding: 12px 12px 12px 24px;
+  background: #808080c9;
+  border-bottom: 5px solid lightgray;
+  height: 82px;
+  display: flex;
+}
+
+.card-list-header img {
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid lightgrey;
+}
+
+.card-list-header h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.card-list-header h5 {
+  color: white;
+  width: 25%;
+  font-weight: 600;
+}
+
+.card-list-body {
+  text-align: left;
+  padding: 20px 20px 0px 20px;
+  font-size: 15px;
+}
+
+.card-list-body label b {
+  font-size: 25px;
+}
+
+.card-list-body p:nth-child(3) {
+  color: #808080bf;
+}
+
+.border-blue {
+  border-bottom: 5px solid #14aeef;
+}
+
+.bg-light-gray {
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.bg-light-gray .border-blue img {
+  border: 5px solid #14aeef;
+}
+
+.btn-no-thanks {
+  background: #8080806b;
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
+  border-radius: 20px 0px 0px 20px;
+  padding: 5px 10px 5px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-add-continue {
+  background: #14aeef;
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  padding: 5px 40px 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: right;
+  display: inline-block;
+}
+
+.payment-container {
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.payment-container .payment-cards {
+  float: right;
+  height: 50%;
+}
+
+.payment-container .col-6{
+  border-bottom: 1px solid gray;
+}
+
+.inline-block {
+  display: inline-flex;
+}
+
+.inline-block img {
+  border-right: 1px solid gray;
+  padding: 10px;
+}
+
+.inline-block div {
+  padding: 10px;
+}
+
+.inline-block h5 {
+  font-weight: 600;
+  color: #545b62;
+  margin: 0;
+}
+
+.footer {
+  background: #8080806b;
+  padding: 15px 250px 15px 250px;
+  align-items: center;
+}
+
+.footer .col-3 h5{
+  font-weight: 600;
+  color: #545b62;
+}
+
+.footer .col-3 .inline-block {
+  font-weight: 600;
+  color: #545b62;
+}
+
+.footer .col-3 .inline-block h1 {
+  margin: 9px;
+  font-weight: 600;
+}
+
+.footer .col-3 .inline-block span {
+  width: 0;
+  overflow: visible;
+}
+
+.footer .col-6 img {
+  padding-left: 50%;
+}
+
+/* .footer .col-3  */
+.online-anytime {
+  font-size: 23px;
+  color: gray;
+  padding-right: 0;
+}
+
+.contact-details {
+  background: #d3d3d363;
+  padding: 35px 250px 35px 250px;  
+}
+
+.contact-details .col-3:not(:last-child) {
+  border-right: 1px solid gray;
+}
+
+.contact-details h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #545b62;
+}
+
+.contact-details label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #545b62;
+  margin: 0;
+}
+
+.contact-details p {
+  font-size: 12px;
+  color: #545b62;
+}
+
+.contact-details .inline-block p {
+  margin-bottom: 0;
+}

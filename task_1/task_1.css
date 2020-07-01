@@ -1,0 +1,206 @@
+.pl-33 {
+  padding-left: 33px !important;
+}
+
+.header {
+  width: 100%;
+}
+
+.header .navbar {
+  padding: 13px 270px;
+  border-bottom: 15px solid #007bffb8;
+}
+
+.navbar-brand {
+  margin-right: 30%;
+}
+
+.nav-link {
+  color: #6c757d !important;
+}
+.social-media-logos {
+  padding: 0px 24px;
+  cursor: pointer;
+}
+
+.social-media-logos img {
+  padding: 0px 3px;
+}
+
+.img-container {
+  width: 100%;
+  height: 500px;
+  padding: 0px 270px;
+  background-image: url("./images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-container .row .col-6:nth-child(2) {
+  padding-right: 13%;
+}
+
+.img-container .did-you-want {
+  font-size: 32px;
+  padding: 16px 0px;
+  text-align: -webkit-right;
+  font-family: sans-serif;
+  color: gray;
+}
+
+.img-container .create-video-course {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #007bffc9;
+  padding: 5px 0px;
+}
+
+.img-container .form-container {
+  background: #6c757d61;
+  padding: 16px 44px;
+}
+.img-container .form-container div:nth-child(1) {
+  font-family: sans-serif;
+  color: #545b62;
+}
+
+.img-container .form-container button {
+  border: navajowhite;
+  width: 100%;
+  background: #ff000096;
+}
+
+.gray-container {
+  background: #e3e4e5;
+  width: 100%;
+  padding: 0px 15%;
+}
+
+.what-is-thrivist {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding-top: 45px;
+}
+
+.what-is-thrivist .what-thrivist {
+  font-size: 32px;
+  color: #007bffa1;
+}
+
+.e-learning {
+  font-size: 18px;
+  color: #495057;
+}
+
+.table-container {
+  margin-top: 35px;
+  padding-bottom: 45px;
+}
+
+.table-container .row .col-6 {
+  padding: 20px 30px;
+  border-bottom: 2px solid gray;
+  color: #6c757d;
+  font-size: 18px;
+}
+
+.table-container .row:nth-child(3) .col-6 {
+  padding: 20px 30px;
+  border-bottom: none;
+}
+
+/* .input-icons i { 
+  position: absolute; 
+}  */
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+i {
+  position: absolute;
+}
+
+.icon {
+  padding: 13px 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+}
+
+.table-container .row:nth-last-child() .col-6 {
+  border-bottom: 0px;
+}
+
+.right-border {
+  border-right: 2px solid gray;
+}
+
+.col-6 span:nth-child(1) {
+  float: left;
+}
+
+.col-6 img {
+  padding: 0px 15px;
+}
+
+.calendar-container {
+  padding: 0px 23%;
+  background-color: #118b5eab;
+}
+
+.calendar-header-text {
+  text-align: center;
+  font-size: 28px;
+  font-family: inherit;
+  padding: 20px 0px;
+  color: #495057;
+}
+
+.calendar-icon {
+  font-size: 55px;
+}
+
+.calendar-text {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.learn-more-container {
+  padding: 27px 23%;
+  text-align: center;
+  margin: auto;
+}
+
+.learn-more-container div {
+  background-color: #505860c9;
+  padding: 7px 0px;
+  font-family: unset;
+}
+
+.learn-more-container .question {
+  color: white;
+}
+
+.learn-more-container input {
+  margin: 8px;
+  background-color: lightgray;
+  border: none;
+}
+
+.learn-more-container button {
+  background-color: #e63f3f;
+  color: white;
+  border: none;
+  margin: 0px 10px;
+  padding: 7px;
+  font-size: 16px;
+}
