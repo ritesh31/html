@@ -1,0 +1,368 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 0px 250px;
+}
+
+
+/* Grid css */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/*  */
+
+
+/* header */
+
+.title-content {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.contact-content p {
+    margin: 0px 0px 0px 185px;
+    padding: 9px;
+    font-weight: 600;
+}
+
+.contact-content .top-field {
+    background: #ee4b77;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+.contact-content .bottom-field {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+/*  */
+
+
+/* Navbar */
+
+.navbar {
+    text-align: right;
+    padding: 35px;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar span a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar span a:hover {
+    color: #ee4b77;
+    cursor: pointer;
+}
+
+
+/*  */
+
+.title-bar {
+    text-align: center;
+    font-size: 120px;
+    font-weight: 900;
+    color: #56f2cc;
+    padding-bottom: 0px;
+}
+
+
+/* Development */
+
+.development-container {
+    position: relative;
+}
+
+.development-container .col-12.title-bar {
+    position: absolute;
+}
+
+.development-container .col-8 {
+    padding-top: 16%;
+}
+
+.development-container .col-4 {
+    padding-top: 9%;
+}
+
+.development-container .dev-title-content h3 {
+    margin: 0px 0px 2px 0px;
+}
+
+.development-container .dev-title-content p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.development-container .dev-radio-fields {
+    display: flex;
+    font-size: 18px;
+}
+
+.development-container .dev-radio-fields div {
+    width: 50%;
+}
+
+.development-container .button-container {
+    text-align: center;
+}
+
+.development-container .button-container button {
+    background: #ef4b77;
+    color: white;
+    border: navajowhite;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/*  */
+
+
+/* Services */
+
+.services-container {
+    position: relative;
+}
+
+.services-container .col-12.title-bar {
+    position: absolute;
+}
+
+.services-container .col-12.image-bar {
+    padding: 8% 0px 0px 15%;
+}
+
+.services-container .col-6 h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #ef4b77;
+}
+
+.services-container .col-6 p {
+    font-size: 18px;
+    padding: 0px 50px;
+}
+
+.services-container .col-6 img {
+    padding: 15% 30% 0% 30%;
+}
+
+.services-container .magento-customization {
+    padding: 15% 0%;
+}
+
+
+/*  */
+
+
+/* About */
+
+.about-container {
+    position: relative;
+}
+
+.about-container .col-12.title-bar {
+    position: absolute;
+    margin-left: -25%;
+}
+
+.about-container .top-bar {
+    padding-top: 7%;
+}
+
+.about-container .about-img {
+    text-align: center;
+}
+
+.about-container .about-img h3 {
+    margin: 0;
+    color: #ef4b77;
+    margin-top: 10px;
+}
+
+
+/*  */
+
+
+/* Clients */
+
+.client-container .col-12.title-bar {
+    padding: 0% 5% 0% 50%
+}
+
+.client-container .col-12 img {
+    padding: 15px 25px;
+}
+
+
+/*  */
+
+
+/* ContactUs */
+
+.contact-us-container {
+    position: relative;
+}
+
+.contact-us-container .col-12.title-bar {
+    position: absolute;
+}
+
+.contact-us-container .main-bar {
+    padding-top: 8%;
+}
+
+.contact-us-container .main-bar .col-6:nth-child(1) {
+    padding-top: 8%;
+}
+
+.contact-us-container .call-we-answer {
+    display: flex;
+}
+
+.contact-us-container .call-we-answer p {
+    margin: 0;
+}
+
+.contact-us-container .call-we-answer span:nth-child(2) {
+    padding-left: 12px;
+}
+
+.contact-us-container .call-we-answer .label {
+    font-size: 30px;
+    font-weight: 700;
+    color: #5f5450;
+    height: 30px;
+}
+
+.contact-us-container .call-we-answer .phone-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ef4d7b;
+    letter-spacing: 2px;
+    height: 38px;
+}
+
+.contact-us-container .call-we-answer .time {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5f545094;
+    letter-spacing: 1px;
+}
+
+.contact-us-container form input,
+textarea {
+    border: 1px solid #ef4b77;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.contact-us-container form button {
+    background: #ef4d7b;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 7px;
+    margin-top: 25px;
+}
+
+.contact-us-container .map-content {
+    text-align: right;
+}
+
+.contact-us-container .map-content p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.contact-us-container .map-content p:nth-child(1) {
+    color: #ef4d7b;
+}
+
+
+/*  */
+
+.footer-container {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 90px;
+}
